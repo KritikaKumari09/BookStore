@@ -63,7 +63,7 @@ router.get('/:id',async(req,res)=>{
     }
 })
 
-// route for update a book
+// route for update/edit a book
 router.put('/:id', async(req,res) =>{
     try{
         if(!req.body.title || !req.body.author || !req.body.publishYear){
