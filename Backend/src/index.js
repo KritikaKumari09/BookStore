@@ -25,7 +25,7 @@ app.get('/', (req,res)=>{
 
 // middleware for handling cors policy
 // Option 1 :Allows all orign with default of cors(*)
-app.use(cors)
+app.use(cors())
 
 // option 2:allow custom origins
 // app.use(cors({
