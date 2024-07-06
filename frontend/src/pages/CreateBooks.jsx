@@ -20,7 +20,7 @@ const CreateBooks = () => {
       .post('http://localhost:3000/books', data)
       .then(() => {
         setLoading(false);
-        toast.success('Book and Kritika Created successfully');
+        toast.success('Book Created successfully');
         navigate('/');
       })
       .catch((err) => {
